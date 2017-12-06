@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using BudgetApplication.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BudgetApplication.Data
 {
     public class UserContext : DbContext
     {
-        protected UserContext() : base("connection string")
+        protected UserContext() 
         {
         }
         public DbSet<User> Usersdb { get; protected set; }

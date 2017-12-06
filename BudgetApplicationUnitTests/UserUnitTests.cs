@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using BudgetApplication.Models;
 
 namespace BudgetApplicationUnitTests
 {
@@ -11,7 +12,8 @@ namespace BudgetApplicationUnitTests
         [TestMethod]
         public void CheckIfUsernameAcceptsSpace(String username)
         {
-            username = 
+            User user = new User();
+
         }
     }
 }

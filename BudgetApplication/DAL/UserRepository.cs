@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using BudgetApplication.Models;
 
 namespace BudgetApplication.DAL
@@ -13,7 +11,6 @@ namespace BudgetApplication.DAL
         public void DeleteUser(string userID)
         {
             //var User = from usr in Users
-            //           de
         }
 
         public User GetUserByID(string userId)
